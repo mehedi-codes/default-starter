@@ -1,4 +1,13 @@
-/* Mulish Font Family */
+/* Import Mulish font Online */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+
+/* Import Poppins font Online */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+
+/* Import Mulish font offline  */
 
 @font-face {
   font-family: "Mulish";
@@ -43,7 +52,7 @@
   font-style: italic;
 }
 
-/* Poppins Font Family */
+/* Import Poppins font offline  */
 
 @font-face {
   font-family: "Poppins";
@@ -81,3 +90,14 @@
   font-weight: 900;
   font-style: normal;
 }
+
+/* Set Poppins font for headings, titles, and buttons */
+h1, h2, h3, h4, h5, h6, .title, .button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Set Mulish font for body text paragraphs, navigation, and menu-item or nav links */
+body, p, ul, ol, li, nav, .menu-item, .nav-link {
+  font-family: 'Mulish', sans-serif;
+}
+
